@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background4"
+    tools:context="Exam_Activity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey "
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:text="Are you ready for the exam? " />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:text="MCQ having single correct option :" />
+
+    <Button
+        android:id="@+id/btnQ1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:backgroundTint="#696969"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Question1" />
+
+    <Button
+        android:id="@+id/btnQ2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#696969"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Question2" />
+
+    <Button
+        android:id="@+id/btnQ3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#696969"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Question3" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="MCQ having multiple correct option :" />
+
+    <Button
+        android:id="@+id/btnQ4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#2F4F4F"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Question4" />
+
+    <Button
+        android:id="@+id/btnQ5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#2F4F4F"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Question5" />
+
+    <Button
+        android:id="@+id/btnQ6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#2F4F4F"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Question6" />
+
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:backgroundTint="#247A63"
+        android:layout_marginLeft="190dp"
+        android:layout_marginRight="40dp"
+        android:text="Submit" />
+</LinearLayout>
